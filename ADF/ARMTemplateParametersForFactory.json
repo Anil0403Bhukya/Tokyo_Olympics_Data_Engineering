@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "tokyo2020"
+        },
+        "AzureDataLakeStorage1_accountKey": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_properties_typeProperties_url": {
+            "value": "https://tokyo20.dfs.core.windows.net/"
+        },
+        "MedalsHTTP_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/Anil0403Bhukya/Tokyo_Olympics_Data_Engineering/refs/heads/main/Data/Raw/Medals.csv"
+        },
+        "CoachesHTTP_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/Anil0403Bhukya/Tokyo_Olympics_Data_Engineering/refs/heads/main/Data/Raw/Coaches.csv"
+        },
+        "MedalsHTTP1_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/Anil0403Bhukya/Tokyo_Olympics_Data_Engineering/refs/heads/main/Data/Raw/Teams.csv"
+        },
+        "Teams_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/Anil0403Bhukya/Tokyo_Olympics_Data_Engineering/refs/heads/main/Data/Raw/Teams.csv"
+        },
+        "HttpServer1_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/Anil0403Bhukya/Tokyo_Olympics_Data_Engineering/refs/heads/main/Data/Raw/Athletes%20.csv"
+        },
+        "EntriesGenderHTTP_properties_typeProperties_url": {
+            "value": "https://raw.githubusercontent.com/Anil0403Bhukya/Tokyo_Olympics_Data_Engineering/refs/heads/main/Data/Raw/EntriesGender.csv"
+        }
+    }
+}
